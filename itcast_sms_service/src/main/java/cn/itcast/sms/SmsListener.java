@@ -13,7 +13,7 @@ public class SmsListener {
 	
 	@Autowired
 	private SmsUtil smsUtil;
-//测试专属
+    //分支1测试提交测试
 	@JmsListener(destination="sms")
 	public void sendSms(Map<String,String> map){
 		
