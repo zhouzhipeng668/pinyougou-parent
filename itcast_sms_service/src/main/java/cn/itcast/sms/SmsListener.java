@@ -14,6 +14,7 @@ public class SmsListener {
 	@Autowired
 	private SmsUtil smsUtil;
 
+	//分支2合并
 	@JmsListener(destination="sms")
 	public void sendSms(Map<String,String> map){
 		
